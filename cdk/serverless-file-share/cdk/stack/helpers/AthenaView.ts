@@ -47,7 +47,7 @@ export class AthenaView extends Construct {
       policy: AwsCustomResourcePolicy.fromStatements([
         new iam.PolicyStatement({
           actions: [
-            'athena:startQueryExecution',
+            'athena:StartQueryExecution',
             'athena:GetQueryExecution',
             'glue:GetTable',
             'glue:GetDatabase',
